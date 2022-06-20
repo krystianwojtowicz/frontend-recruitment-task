@@ -76,6 +76,9 @@ html {
                     }
 
                     .dialog__close-button {
+                        height: 12px;
+                        width: 12px;
+                        color: rgba(0, 0, 0, 1);
                         position: absolute;
                         padding: 0;
                         top: 22%;

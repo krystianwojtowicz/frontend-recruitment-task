@@ -81,6 +81,9 @@ html .container .row .dialog .dialog__content .dialog__p {
 }
 
 html .container .row .dialog .dialog__content .dialog__close-button {
+  height: 12px;
+  width: 12px;
+  color: black;
   position: absolute;
   padding: 0;
   top: 22%;
