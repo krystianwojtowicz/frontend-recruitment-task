@@ -17,12 +17,8 @@ html .container .row {
 }
 
 html .container .row button {
-  border: none !important;
+  border: none;
   font-weight: 700;
-}
-
-html .container .row .col {
-  margin: auto;
 }
 
 html .container .row .dialog__h1 {
@@ -164,7 +160,7 @@ html .container .row .text .text__div .text__p {
   }
   html .container .row .text,
   html .container .row .img {
-    max-width: 100% !important;
+    max-width: 100%;
     padding: 20px 20px 0;
   }
   html .container .row .img__img {

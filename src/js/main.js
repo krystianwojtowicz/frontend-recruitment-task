@@ -21,7 +21,8 @@ const cancelButton = document.querySelector(".dialog__cancel-button");
     if (
       dialog.open &&
       (e.target.isEqualNode(cancelButton) ||
-        !e.target.closest(".dialog__content") || e.target.isEqualNode(closeButton))
+        !e.target.closest(".dialog__content") ||
+        e.target.isEqualNode(closeButton))
     ) {
       dialog.close();
     } else {

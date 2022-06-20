@@ -14,13 +14,8 @@ html {
             margin: auto;
 
             button {
-                border: none !important;
+                border: none;
                 font-weight: 700;
-            }
-
-            .col {
-                margin: auto;
-                // po co to?
             }
 
             .dialog__h1 {
@@ -187,7 +182,7 @@ margin-left: 10px;
         }
         .text,
         .img {
-            max-width: 100% !important;
+            max-width: 100%;
             padding: 20px 20px 0;
         }
         .img__img {
