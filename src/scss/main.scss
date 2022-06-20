@@ -58,7 +58,7 @@ html {
                         bottom: 10%;
                         right: 5.5%;
                     }
-                    
+
                     .dialog__reset-button.active {
                         visibility: visible;
                     }
@@ -82,15 +82,13 @@ html {
                         outline: none;
                         background: none;
                     }
-                    .dialog__cancel-button {
-margin-top: 10px;
-margin-left: 10px;
-                    }
 
+                    .dialog__cancel-button {
+                        margin-top: 10px;
+                        margin-left: 10px;
+                    }
                 }
             }
-
-
 
             .text {
                 padding-left: 6.5%;
@@ -125,114 +123,58 @@ margin-left: 10px;
 }
 
 @media screen and (min-width: 1200px) {
-.img {
-    padding: 0;
-    max-width: 735px;
+    .img {
+        padding: 0;
+        max-width: 735px;
 
-    .img__grid-container {
-        display: grid;
-        grid-template-columns: 230fr 505fr;
-        // grid-auto-rows: minmax(150px, auto);
-        // aspect-ratio: 1/1;
-        // grid-gap: 20px;
-        justify-items: stretch;
-        align-items: stretch;
-
-        .img__grid-item-1 {
-            // align-self: start;
-            // justify-self: center;
-            aspect-ratio: 230/426;
-            grid-row-end: span 2;
-        }
-
-        .img__grid-item-2 {
-            // align-self: start;
-            // justify-self: center;
-            aspect-ratio: 505/96;
-        }
-
-        // .grid-item-3{
-        //   // align-self: start;
-        //   // justify-self: center;
-        //   aspect-ratio: 230/330;
-        // }
-        .img__grid-item-3 {
-            // align-self: start;
-            // justify-self: center;
-            aspect-ratio: 505/330;
+        .img__grid-container {
             display: grid;
+            grid-template-columns: 230fr 505fr;
+            justify-items: stretch;
+            align-items: stretch;
 
-            .img__img {
-                width: 100%;
-                display: block;
+            .img__grid-item-1 {
+                aspect-ratio: 230/426;
+                grid-row-end: span 2;
+            }
+
+            .img__grid-item-2 {
+                aspect-ratio: 505/96;
+            }
+
+            .img__grid-item-3 {
                 aspect-ratio: 505/330;
+                display: grid;
+
+                .img__img {
+                    width: 100%;
+                    display: block;
+                    aspect-ratio: 505/330;
+                }
             }
         }
     }
-}
 }
 
 @media screen and (max-width: 1200px) {
     html .container .row {
         .text {
             padding: 0;
+
             div {
                 margin: 20px auto;
             }
         }
+
         .text,
         .img {
             max-width: 100%;
             padding: 20px 20px 0;
         }
+
         .img__img {
             width: 100%;
-                height: auto;
+            height: auto;
         }
     }
-
-    // .img__grid-container {
-    //     display: grid;
-    //     // grid-template-columns: 230fr 505fr;
-    //     // grid-auto-rows: minmax(150px, auto);
-    //     // aspect-ratio: 1/1;
-    //     // grid-gap: 20px;
-    //     justify-items: stretch;
-    //     align-items: stretch;
-    //     grid-template-columns: 20px minmax(300px, auto) 20px;
-    //     grid-template-rows: 20px 1fr;
-    //     // .grid-item-1 {
-    //     //     // align-self: start;
-    //     //     // justify-self: center;
-    //     //     aspect-ratio: 230/426;
-    //     //     grid-row-end: span 2;
-    //     //   }
-    //     //   .grid-item-2{
-    //     //     // align-self: start;
-    //     //     // justify-self: center;
-    //     //     aspect-ratio: 505/96;
-    //     //   }
-    //     //   // .grid-item-3{
-    //     //   //   // align-self: start;
-    //     //   //   // justify-self: center;
-    //     //   //   aspect-ratio: 230/330;
-    //     //   // }
-    //     //   .grid-item-3{
-    //     //     // align-self: start;
-    //     //     // justify-self: center;
-    //     //     aspect-ratio: 505/330;
-    //     //     display: grid;
-    //     //     img {
-    //     //       width: 100%;
-    //     //       display: block;
-    //     //       aspect-ratio: 505/330;
-    //     //     }
-    //     //   }
-    //     .img__grid-item3 {
-    //         grid-column-start: 1;
-    //         grid-column-end: two;
-    //         grid-row-start: row1-start;
-    //         grid-row-end: 2;
-    //     }
-    // }
 }

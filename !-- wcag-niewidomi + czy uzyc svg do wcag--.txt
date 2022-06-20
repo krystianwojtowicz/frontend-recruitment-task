@@ -1,8 +1,0 @@
- !-- wcag-niewidomi + czy uzyc svg do wcag--
-blend pass through
-img bocground url
-h1 ag t1
-
-3 buttony h1 p dialog
-img
-text h1 p button
